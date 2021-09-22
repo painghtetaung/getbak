@@ -41,7 +41,7 @@ body {
 }
 
 header {
-    margin: 0 8px;
+    margin: 0 0 0 8px;
     height: 40px;
     grid-area: header;
     display: flex;
@@ -99,7 +99,7 @@ img.down-arrow {
 
 .header-search {
     display: flex;
-    padding: 15px;
+    padding: 15px 0 15px 15px;
     width: 70.5%;
 }
 
@@ -259,4 +259,116 @@ img.down-arrow {
     padding-left: 10px;
     padding-bottom: 14px;
     border-bottom: 1px solid rgba(165, 165, 165, .5);
+}
+
+
+/* main */
+
+.main-header {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header .left-title p {
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-header .right-option {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.main-header img {
+    width: 10px;
+    height: 10px;
+}
+
+.select-all img {
+    margin-right: 3px;
+}
+
+.select-all p {
+    padding-right: 3px;
+}
+
+.export {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #0055FF;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.select-all,
+.export {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-all p,
+.export p {
+    font-size: 10px;
+}
+
+
+/* table grid */
+
+.table {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1.2fr 1.3fr 1fr 2fr 1.2fr;
+    grid-template-areas: "name position teams address last-login";
+    gap: 5px;
+}
+
+#name {
+    grid-area: name;
+}
+
+#position {
+    grid-area: position;
+}
+
+#teams {
+    grid-area: teams;
+}
+
+#address {
+    grid-area: address;
+}
+
+
+/* table title style */
+
+.table {
+    margin-top: 3px;
+}
+
+.table .table-title span img {
+    width: 10px;
+    height: 10px;
+}
+
+.table .table-title {
+    text-align: center;
+    font-size: 12px;
+    color: #A5A5A5;
+}
+
+.table .table-value {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.table .table-value input {
+    width: 10px;
 }
