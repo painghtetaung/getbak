@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    background-color: #F9F9F9;
+}
+
+
+/* Grid  */
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.2fr 1.3fr 4fr;
+    grid-template-rows: 0.2fr 5fr;
+    grid-template-areas: "header header header" "side-bar-icon side-bar-title main"
+}
+
+#side-bar-icon {
+    grid-area: side-bar-icon;
+    margin-right: 10px;
+    padding: 8px;
+    border-right: 1px solid rgba(165, 165, 165, .5);
+}
+
+#side-bar-title {
+    grid-area: side-bar-title;
+    border-right: 1px solid rgba(165, 165, 165, .5);
+}
+
+#main {
+    grid-area: main;
+}
+
+header {
+    margin: 0 10px;
+    height: 40px;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(165, 165, 165, .5);
+}
+
+.header-title {
+    font-weight: 500;
+    font-size: 14px;
+    width: 237px;
+    height: 100%;
+    padding-top: 10px;
+    border-right: 1px solid rgba(165, 165, 165, .5);
+}
+
+.header-profile-info {
+    display: flex;
+}
+
+.header-profile-info .globe-icon,
+.bell-icon {
+    width: 13px;
+    height: 13px;
+}
+
+.profile-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.header-search {
+    display: flex;
+    padding: 15px;
+}
+
+.header-input {
+    border: 1px solid rgba(165, 165, 165, .5);
+    border-radius: 6px;
+    padding: 2px;
+    width: 300px;
+    margin-right: 120px;
+}
+
+.header-input input {
+    border: 0;
+    color: #A5A5A5;
+    background-color: transparent;
+    outline: none;
+}
+
+.header-input img {
+    width: 12px;
+    height: 12px;
+    padding-left: 3px;
+}
+
+.header-logo {
+    margin-right: 10px;
+    padding: 8px;
+    border-right: 1px solid rgba(165, 165, 165, .5);
+}
+
+.header-logo img {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,4 @@
+Google Fonts - Quicksand - ( https://fonts.google.com/specimen/Quicksand?query=qu )
+Sizes - 14px, 16px, 18px, 22px
+
+Color Codes - Background color #F9F9F9, Outline Color #F1F1F1, Gray Text Color #A5A5A5, Primary Color Blue #0055FF, Black #000000.
