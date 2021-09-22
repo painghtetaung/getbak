@@ -69,9 +69,9 @@ p {
     margin-right: 10px;
 }
 
-.header-profile-info .globe-icon,
-.bell-icon,
-.down-arrow {
+.header-profile-info img.globe-icon,
+img.bell-icon,
+img.down-arrow {
     width: 13px;
     height: 13px;
 }
