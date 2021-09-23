@@ -70,3 +70,13 @@ p.location {
 p.br {
     border-right: 1px solid;
 }
+
+@media screen and (max-width: 991px) {
+    .footer {
+        width: 800px;
+        margin-left: 80px;
+    }
+    p.location {
+        margin-right: 30px;
+    }
+}

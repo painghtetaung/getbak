@@ -95,8 +95,9 @@ form label {
     }
     .footer {
         width: 800px;
+        margin-left: 80px;
     }
     p.location {
-        margin-right: 150px;
+        margin-right: 30px;
     }
 }
