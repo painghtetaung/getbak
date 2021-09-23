@@ -83,3 +83,20 @@ form label {
     width: 10px;
     height: 10px;
 }
+
+@media screen and (max-width: 991px) {
+    .eye-icon img {
+        top: 115px;
+        left: 171px;
+    }
+    .eye-icon-2 img {
+        top: 200px;
+        left: 171px;
+    }
+    .footer {
+        width: 800px;
+    }
+    p.location {
+        margin-right: 150px;
+    }
+}
