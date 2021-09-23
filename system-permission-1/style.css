@@ -86,7 +86,7 @@ img.bell-icon {
     width: 6px;
     height: 6px;
     position: absolute;
-    right: 192px;
+    right: 190px;
     top: 13px;
 }
 
@@ -449,45 +449,53 @@ img.down-arrow {
 }
 
 .modal-contents {
-    height: 250px;
+    height: 237px;
     width: 300px;
+    padding-top: 15px;
     background-color: white;
     text-align: center;
-    padding: 20px;
     position: absolute;
     top: 30px;
     border-radius: 4px;
+    border: 1px solid rgba(165, 165, 165, .5);
 }
 
 .modal-title {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-size: 12px;
     font-weight: 700;
+    padding-left: 15px;
 }
 
 .sub-modal-title {
     margin-top: 3px;
+    padding-left: 15px;
     text-align: left;
     font-size: 11px;
     font-weight: 500;
     color: #A5A5A5;
 }
 
-.modal-input {
-    margin: 15px auto;
-    display: block;
-    width: 50%;
-    padding: 8px;
-    border: 1px solid gray;
+.close {
+    cursor: pointer;
+    padding-right: 12px;
 }
 
-.close {
-    position: absolute;
-    top: 0;
-    right: 10px;
-    font-size: 42px;
-    cursor: pointer;
+.modal-input {
+    display: block;
+    outline: none;
+    margin-left: 23px;
+    margin-top: 5px;
+    width: 80%;
+    padding: 8px;
+    border: 1px solid rgba(165, 165, 165, .5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .cross-icon {
@@ -498,4 +506,74 @@ img.down-arrow {
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
+}
+
+.model-new-team {
+    margin-top: 15px;
+    border-bottom: 1px solid rgba(165, 165, 165, .5);
+    padding-left: 10px;
+}
+
+.model-new-team p {
+    border-bottom: 1.8px solid blue;
+    width: 25%;
+    height: 100%;
+    color: #0055FF;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.team-name {
+    padding-right: 190px;
+    color: #A5A5A5;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.team-form {
+    margin-top: 10px;
+    height: 110px;
+    border-bottom: 1px solid rgba(165, 165, 165, .5);
+}
+
+.team-confirm {
+    margin-top: 12px;
+}
+
+.btn-cancel,
+.btn-confirm {
+    padding: 6px 30px;
+}
+
+.btn-cancel {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-confirm {
+    background-color: #0055FF;
+    height: 30px;
+    color: #F9F9F9;
+    border: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-confirm:hover {
+    opacity: 0.9;
+}
+
+.btn-cancel:hover {
+    background-color: #A5A5A5;
+    opacity: 0.3;
 }
