@@ -76,6 +76,20 @@ p {
     margin-right: 10px;
 }
 
+img.bell-icon {
+    position: relative;
+}
+
+.bell-badge {
+    background-color: red;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    right: 192px;
+    top: 13px;
+}
+
 .header-profile-info img.globe-icon,
 img.bell-icon,
 img.down-arrow {
